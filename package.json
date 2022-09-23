@@ -1,0 +1,21 @@
+{
+    "name": "wpp-functions",
+    "version": "1.0.0",
+    "description": "\"Bot de funções para Whatsapp\"",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": " Luiz Felipe ",
+    "license": "ISC",
+    "dependencies": {
+      "@open-wa/wa-automate": "^4.47.0",
+      "dotenv": "^16.0.2",
+      "node-fetch": "^2.6.7"
+    },
+    "devDependencies": {
+      "eslint-plugin-prettier": "^4.2.1",
+      "prettier": "2.7.1"
+    }
+  }
